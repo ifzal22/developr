@@ -1,3 +1,44 @@
+
+body{
+    margin:0;
+}
+
 h1{
     font-size:50px;
+}
+.name{
+    color:orange;
+}
+section{
+    display:flex;
+    margin-bottom: 150px;
+}
+.haf-width{
+    width:50%;
+    padding:5%;
+}
+.haf-width img{
+    width:80%;
+
+}
+.link-bottom{
+    text-decoration: none;
+    background-image:linear-gradient(orange,rgb(253, 156, 156));
+    padding:10px 40px;
+    border-radius: 5px;
+    color:wheat;
+    font-weight: 700;
+
+}
+.top-banner{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.drembing{
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
