@@ -35,10 +35,42 @@ h1{
     background-repeat: no-repeat;
 }
 
-
+h2{font-size: 40px;}
 
 .drembing{
     background-image:url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experianceitem{
+
+   box-shadow: 10px 10px 40px gray; 
+   width:40%;
+   margin-left:5%;
+   margin-right: 5%;
+   padding: 15px;
+   border-radius: 10px;
+   
+}
+.experiance{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-expariance{
+
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#web-expariance2{
+
+    
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(138, 138, 185),rgb(207, 116, 12));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-weight: 700;
 }
